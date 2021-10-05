@@ -1,0 +1,35 @@
+        * {
+            font-family: Poppins;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: oldlace;
+        }
+
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* /Small devices (landscape phones, 473px and up) */
+        @media (max-width: 575.98px) {}
+
+        iframe .flip-grid-view .flip-entry {
+            float: left;
+            height: 300px !important;
+            margin: 0 10px 35px;
+            position: relative;
+            text-align: center;
+            width: 190px;
+            background-color: teal!important;
+        }
+
+        .menu-card {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 15px;
+            box-shadow: 3px 3px 9px 1px #00000012;
+        }

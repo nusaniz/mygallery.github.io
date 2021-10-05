@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.nizargallery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <style>
+        .container h2 {
+            font-weight: 800;
+        }
+
+        .container h2 span {
+            font-weight: 300;
+        }
+    </style>
+    <div class="container mb-5">
+        <h2 class="pt-4">.nizar<span>gallery</span></h2>
+    </div>
+    <!-- end navbar -->
+
+
+    <!-- menu -->
+    <section class="menu pt-3 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="menu-card">
+                        <h4>Menu</h4>
+                        <select class="form-select form-select-sm mb-2" onchange="location = this.value;"
+                            aria-label=".form-select-sm example" style="width: 16rem;">
+                            <option selected disabled>Pilih galeri</option>
+                            <option value="single.html">Single Photo</option>
+                            <option value="multiple.html">Multiple Photo</option>
+                            <option value="bgnz.html">Background</option>
+                            <!-- <option value="3">Three</option> -->
+                        </select>
+                        <!-- <a href="single.html" class="btn btn-primary">single photo</a> -->
+                        <!-- <a href="multiple.html" class="btn btn-primary">multiple photo</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end menu -->
+
+
+
+
+    <!-- Button trigger modal -->
+    <style>
+        .btn-primaryy {
+            border: 1px solid black;
+            /* background-color: ; */
+        }
+
+        .btn-primaryy:hover, .btn-primaryy:focus {
+            color: white;
+            background-color: black;
+        }
+    </style>
+    <div class="container d-flex justify-content-center">
+        <button type="button" class="btn btn-primaryy" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Apa ini?
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Apa .nizargallery ini?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex">
+                    <div class="modal-body-img">
+                        <img src="./img/profile.png" alt="" width="80px">
+                    </div>
+                    <div class="modal-body-text d-flex align-items-center" style="padding-left: 15px;">
+                        Situs ini saya gunakan untuk publish foto, gambar, maupun berkas digital lainnya.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <style>
+        footer {
+            font-size: 12px;
+        }
+    </style>
+    <footer class="pt-5">
+        <p class="text-center mb-0">Copyright 2021</p>
+        <p class="text-center mb-0">@nizarnnarendra</p>
+    </footer>
+
+    <!-- end footer -->
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
